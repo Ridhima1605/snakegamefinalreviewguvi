@@ -49,6 +49,7 @@ Direction changes are validated to prevent the snake from reversing on itself.
 If the game is over, the timer stops, and a game-over message is displayed
 
 ##Code Structure
+
 EnhancedSnakeGame.java: The main class that contains the game logic, rendering, and event handling.
 Fields: Variables for managing snake positions, apple positions, score, and game state.
 Methods:
