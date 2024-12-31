@@ -34,7 +34,7 @@ To run this game, you need:
 1. Clone the repository or download the source code:
    ```bash
    git clone https://github.com/yourusername/SnakeGameWithValidation.git
-  ..Gameplay Instructions
+  ##Gameplay Instructions
   
 Use the arrow keys to control the snake's direction (up, down, left, right).
 Try to eat the red apples that appear on the screen. Each apple you eat increases your score and the length of the snake.
@@ -42,25 +42,35 @@ Avoid running into the walls of the game area and colliding with your own snake 
 The game ends when you collide with a wall or your own body. 
 The final score will be displayed on the screen.
 
-Error Handling and Data Validation
+##Error Handling and Data Validation
 
 The game includes checks to ensure that the snake does not move out of bounds or collide with itself.
 Direction changes are validated to prevent the snake from reversing on itself.
 If the game is over, the timer stops, and a game-over message is displayed
 
-Innovative Features
+##Code Structure
+EnhancedSnakeGame.java: The main class that contains the game logic, rendering, and event handling.
+Fields: Variables for managing snake positions, apple positions, score, and game state.
+Methods:
+initGame(): Initializes the game state.
+paintComponent(Graphics g): Renders the game graphics.
+checkCollision(): Detects collisions and manages game over state.
+move(): Updates the snake's position.
+checkApple(): Checks if the snake has eaten an apple.
+
+##Innovative Features
 
 Dynamic Speed Adjustment: The game becomes more challenging as the player scores more points by increasing the game speed.
 Scoring System: Players can see their score in real-time and strive to beat their previous scores.
 
-Future Improvements
+##Future Improvements
 
 Sound Effects: Adding sound effects for actions such as eating an apple and game-over.
 Custom Difficulty Levels: Allowing players to choose from different difficulty settings that affect the initial speed and apple spawn rate.
 Enhanced Graphics: Improving the graphics and adding animations for a better visual experience.
 High Score Tracking: Implementing a system to track high scores across game sessions.
 
-License
+##License
 This project is licensed under the MIT License. Feel free to modify and use the code as per your needs.
 
 
